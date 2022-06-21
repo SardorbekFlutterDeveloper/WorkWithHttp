@@ -1,4 +1,5 @@
 import 'package:api_exerice/views/commet_page.dart';
+import 'package:api_exerice/views/photos_page.dart';
 import 'package:api_exerice/views/posts_page.dart';
 import 'package:api_exerice/views/user_page.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
-      home: CommetPage(),
+      home: PhotosPage(),
     );
   }
 }
